@@ -1,0 +1,12 @@
+.box {
+    padding: 100px 0px;
+
+    .top_box {
+        width: 100%;
+
+        &__list {
+            width: 50%;
+            list-style: none;
+        }
+    }
+}
