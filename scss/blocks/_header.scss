@@ -1,7 +1,87 @@
 .header {
+    background-color: #FFF5F0;
 
 
-    &__name{
-        color: red;
+    .container__fluid {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        img {
+            width: 40%;
+        }
     }
+
+    &__list {
+        list-style: none;
+        width: 50%;
+    }
+
+    &__item {
+        span {
+            color: #1BA0AB;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 58px;
+        line-height: 80px;
+        letter-spacing: 0.2px;
+        margin: 20px 0px;
+        color: #252B42;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    &__left-btn {
+        background-color: #1BA0AB;
+        width: 130px;
+        height: 50px;
+        margin-right: 20px;
+        border: 1px solid #1BA0AB;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #FFFFFF;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            background-color: white;
+            color: #1BA0AB;
+        }
+    }
+
+    &__right-btn {
+        background-color: #FFF5F0;
+        width: 160px;
+        height: 50px;
+        margin-right: 20px;
+        border: 1px solid #1BA0AB;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #1BA0AB;
+        cursor: pointer;
+        transition: 0.3s;
+        &:hover {
+            background-color: #1BA0AB;
+            color: white;
+        }
+    }
+
+    
+
+
+
 }
