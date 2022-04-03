@@ -1,0 +1,29 @@
+.footer {
+    padding: 50px 0px;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__list {
+        list-style: none;
+    }
+
+    &__name {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+    }
+
+    &__text {
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #737373;
+        display: flex;
+        align-items: center;
+    }
+}
