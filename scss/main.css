@@ -1000,6 +1000,7 @@
 
 .footer__list {
   list-style: none;
+  padding-left: 0px;
 }
 
 .footer__list:last-child {
