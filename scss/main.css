@@ -387,6 +387,31 @@
   margin-left: 5px;
 }
 
+.box {
+  padding: 100px 0px;
+}
+
+.box .top_box {
+  width: 100%;
+}
+
+.box .top_box__list {
+  width: 50%;
+  list-style: none;
+}
+
+.box .top_box__item {
+  margin: 10px;
+}
+
+.box .top_box__item span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #1BA0AB;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
