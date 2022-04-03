@@ -3,14 +3,16 @@
 
     .top_box {
         width: 100%;
+        margin-bottom: 80px;
 
         &__list {
             width: 40%;
             list-style: none;
+            padding-left: 0px;
         }
 
         &__item {
-            margin: 10px;
+            margin: 10px 0px;
 
             span {
                 font-weight: 700;
@@ -38,7 +40,241 @@
 
     .bottom_box {
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
 
-        
+        .left_box {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__img {
+                width: 42%;
+            }
+            
+            &__list {
+                list-style: none;
+                padding: 35px;
+                width: 58%;
+            }
+
+            &__item {
+                margin: 22px 0px;
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-weight: 700;
+                    font-size: 14px;
+                    letter-spacing: 0.2px;
+                    color: #1BA0AB;
+                }
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 0.1px;
+                    color: #252B42;
+                }
+
+                text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+                }
+
+                p {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 700;
+                    font-size: 14px;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+
+                b {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 0.1px;
+                    color: #BDBDBD;
+                    
+                    span {
+                        font-weight: 700;
+                        font-size: 16px;
+                        letter-spacing: 0.1px;
+                        color: #F69B25;
+                        margin-left: 5px;
+                    }
+                }
+
+                small {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 400;
+                    font-size: 12px;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+
+                    img {
+                        margin:0px 5px 0px 15px;
+                    }
+
+                    .cool {
+                        margin-left: 0px;
+                    }
+                }
+
+
+            }
+
+            &__btn {
+                width: 140px;
+                height: 44px;
+                background-color: white;
+                color: #1BA0AB;
+                border: 1px solid #1BA0AB;
+                border-radius: 37px;
+                font-weight: 700;
+                font-size: 14px;
+                letter-spacing: 0.2px;
+                color: #1BA0AB;
+                cursor: pointer;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: #1BA0AB;
+                    color: white;
+                }
+            }
+        }
+
+        .right_box {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            &__img {
+                width: 42%;
+            }
+            
+            &__list {
+                list-style: none;
+                padding: 35px;
+                width: 58%;
+                background-image: url("../../images/product-cover-230\ sec-.png");
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+
+            &__item {
+                margin: 22px 0px;
+
+                span {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    font-weight: 700;
+                    font-size: 14px;
+                    letter-spacing: 0.2px;
+                    color: #1BA0AB;
+                }
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 0.1px;
+                    color: #252B42;
+                }
+
+                text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+                }
+
+                p {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 700;
+                    font-size: 14px;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+
+                    img {
+                        margin-right: 10px;
+                    }
+                }
+
+                b {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 700;
+                    font-size: 16px;
+                    letter-spacing: 0.1px;
+                    color: #BDBDBD;
+                    
+                    span {
+                        font-weight: 700;
+                        font-size: 16px;
+                        letter-spacing: 0.1px;
+                        color: #F69B25;
+                        margin-left: 5px;
+                    }
+                }
+
+                small {
+                    display: flex;
+                    align-items: center;
+                    font-weight: 400;
+                    font-size: 12px;
+                    letter-spacing: 0.2px;
+                    color: #737373;
+
+                    img {
+                        margin:0px 5px 0px 15px;
+                    }
+
+                    .cool {
+                        margin-left: 0px;
+                    }
+                }
+
+
+            }
+
+            &__btn {
+                width: 140px;
+                height: 44px;
+                background-color: white;
+                color: #1BA0AB;
+                border: 1px solid #1BA0AB;
+                border-radius: 37px;
+                font-weight: 700;
+                font-size: 14px;
+                letter-spacing: 0.2px;
+                color: #1BA0AB;
+                cursor: pointer;
+                transition: 0.3s;
+
+                &:hover {
+                    background-color: #1BA0AB;
+                    color: white;
+                }
+            }
+        }
     }
 }
