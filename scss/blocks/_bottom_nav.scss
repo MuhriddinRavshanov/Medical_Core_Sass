@@ -19,6 +19,11 @@
             align-items: center;
             img {
                 margin-left: 20px;
+                transition: 0.3s;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
             }
         }
     }
