@@ -396,7 +396,7 @@
 }
 
 .box .top_box__list {
-  width: 50%;
+  width: 40%;
   list-style: none;
 }
 
@@ -410,6 +410,26 @@
   line-height: 24px;
   letter-spacing: 0.2px;
   color: #1BA0AB;
+}
+
+.box .top_box__item p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.box .top_box__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #252B42;
+}
+
+.box .bottom_box {
+  width: 100%;
 }
 
 html {
