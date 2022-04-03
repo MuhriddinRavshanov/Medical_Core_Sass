@@ -1041,6 +1041,43 @@
   margin-right: 10px;
 }
 
+.bottom_nav {
+  background-color: #FAFAFA;
+  padding: 10px 0px;
+}
+
+.bottom_nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bottom_nav .container p {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.bottom_nav .container span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom_nav .container span img {
+  margin-left: 20px;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;

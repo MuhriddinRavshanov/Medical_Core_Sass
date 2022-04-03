@@ -1,0 +1,27 @@
+.bottom_nav {
+    background-color: #FAFAFA;
+    padding: 10px 0px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        p{
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.2px;
+            color: #737373;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            img {
+                margin-left: 20px;
+            }
+        }
+    }
+
+
+}
