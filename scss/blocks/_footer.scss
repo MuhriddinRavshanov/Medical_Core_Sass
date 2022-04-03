@@ -1,5 +1,5 @@
 .footer {
-    padding: 50px 0px;
+    padding: 20px 0px;
 
     .container {
         display: flex;
@@ -8,6 +8,17 @@
 
     &__list {
         list-style: none;
+        &:last-child {
+            width: 28%;
+        }
+    }
+
+    &__link {
+        text-decoration: none;
+        transition: 0.3s;
+        &:hover p{
+            color: blueviolet;
+        }
     }
 
     &__name {
@@ -25,5 +36,9 @@
         color: #737373;
         display: flex;
         align-items: center;
+
+        img {
+            margin-right: 10px;
+        }
     }
 }

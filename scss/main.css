@@ -986,7 +986,7 @@
 }
 
 .footer {
-  padding: 50px 0px;
+  padding: 20px 0px;
 }
 
 .footer .container {
@@ -1000,6 +1000,20 @@
 
 .footer__list {
   list-style: none;
+}
+
+.footer__list:last-child {
+  width: 28%;
+}
+
+.footer__link {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.footer__link:hover p {
+  color: blueviolet;
 }
 
 .footer__name {
@@ -1021,6 +1035,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.footer__text img {
+  margin-right: 10px;
 }
 
 html {
