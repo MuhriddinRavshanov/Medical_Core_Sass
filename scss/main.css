@@ -903,6 +903,11 @@
   margin-bottom: 12px;
 }
 
+.form {
+  padding: 100px 0px;
+  background-color: #FFF5F0;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
